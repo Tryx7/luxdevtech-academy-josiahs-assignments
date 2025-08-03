@@ -168,8 +168,7 @@ bash
 sudo -u postgres pg_dump mydb > /path/to/backup/mydb_backup.sql
 ```
 
-**3. Updates:**
- 
+**3. Updates:** 
 Regularly update PostgreSQL to get security patches:
 
 ```
