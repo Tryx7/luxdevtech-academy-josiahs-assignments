@@ -199,20 +199,20 @@ postgresql://myuser:mypassword@localhost/mydb
 
 1. **Connection refused errors:**
 
-- Verify PostgreSQL is running: sudo systemctl status postgresql
-- Check listen_addresses in postgresql.conf
-- Verify pg_hba.conf has the correct permissions
+  - Verify PostgreSQL is running: sudo systemctl status postgresql
+  - Check listen_addresses in postgresql.conf
+  - Verify pg_hba.conf has the correct permissions
 
 2. **Authentication failures:**
 
-- Double-check username/password
-- Verify the user has privileges on the database
-- Check pg_hba.conf for correct authentication methods
+  - Double-check username/password
+  - Verify the user has privileges on the database
+  - Check pg_hba.conf for correct authentication methods
 
 3. **Performance issues:**
 
-- Consider tuning shared_buffers, work_mem, and other parameters in postgresql.conf
-- Use EXPLAIN ANALYZE to analyze slow queries
+  - Consider tuning shared_buffers, work_mem, and other parameters in postgresql.conf
+  - Use EXPLAIN ANALYZE to analyze slow queries
 
 ## Next Steps
 Now that you have PostgreSQL installed and configured, consider exploring:
