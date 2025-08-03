@@ -177,7 +177,7 @@ sudo apt update && sudo apt upgrade  # Ubuntu/Debian
 sudo dnf update  # CentOS/RHEL
 ```
 
-**Step 5: Connecting to Your Database**
+## Step 5: Connecting to Your Database**
 
 You can now connect to your database using:
 
