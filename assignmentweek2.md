@@ -207,10 +207,14 @@ We built a relational database from scratch, inserted data, and ran queries to e
 
 🔹 **Key Learnings:**
 ✔ **Primary Keys** ensure uniqueness.
+
 ✔ **Foreign Keys** maintain relationships.
+
 ✔ **JOINs** combine data from multiple tables.
+
 ✔ **Aggregations (SUM, GROUP BY)** help analyze trends.
 
 Try this in your own projects! 🚀
+
 
 
