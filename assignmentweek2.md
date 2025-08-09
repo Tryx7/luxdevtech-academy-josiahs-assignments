@@ -1,5 +1,6 @@
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vr8x5r20nyk0qbnosalb.png)
 
+## Understanding SQL Commands in a Customer-Sales Database
 ## Title: Building a Customer-Sales Database with SQL
 **Subtitle:** A step-by-step breakdown of database creation, table relationships, and querying in SQL.
 
@@ -216,6 +217,7 @@ We built a relational database from scratch, inserted data, and ran queries to e
 ✔ **Aggregations (SUM, GROUP BY)** help analyze trends.
 
 Try this in your own projects! 🚀
+
 
 
 
