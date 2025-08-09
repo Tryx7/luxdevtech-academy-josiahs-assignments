@@ -206,6 +206,7 @@ WHERE s.sales_id IS NULL;
 We built a relational database from scratch, inserted data, and ran queries to extract meaningful insights!
 
 🔹 **Key Learnings:**
+
 ✔ **Primary Keys** ensure uniqueness.
 
 ✔ **Foreign Keys** maintain relationships.
@@ -215,6 +216,7 @@ We built a relational database from scratch, inserted data, and ran queries to e
 ✔ **Aggregations (SUM, GROUP BY)** help analyze trends.
 
 Try this in your own projects! 🚀
+
 
 
 
