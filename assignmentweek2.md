@@ -1,25 +1,5 @@
-Post cover
-ChangeNo file chosenUse a ratio of 1000:420 for best results.
-Remove
-Understanding SQL Commands in a Customer-Sales Database
-Add up to 4 tagsMaximum 4 selections
-Selected items:
-
-Add up to 4 tags...
-Bold CTRL + B
-Italic CTRL + I
-Link CTRL + K
-Ordered list
-Unordered list
-Heading
-Quote
-Code
-Code block
-Embed CTRL + SHIFT + K
-image upload completeChatGPT Image Aug 9, 2025, 09_31_37 AM.pngUpload image
-
-
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vr8x5r20nyk0qbnosalb.png)
+
 ## Title: Building a Customer-Sales Database with SQL
 **Subtitle:** A step-by-step breakdown of database creation, table relationships, and querying in SQL.
 
@@ -218,7 +198,6 @@ WHERE s.sales_id IS NULL;
 **Output:**
 
 | fullname  |
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4s3d36ohwtl2zyv4vteh.png)
 |-----------|
 | Ahab Jez  |
 
@@ -233,3 +212,4 @@ We built a relational database from scratch, inserted data, and ran queries to e
 ✔ **Aggregations (SUM, GROUP BY)** help analyze trends.
 
 Try this in your own projects! 🚀
+
