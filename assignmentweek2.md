@@ -6,9 +6,13 @@
 
 ## Introduction
 Hey everyone! 👋 Today, I’ll walk you through a simple SQL database that tracks customers, their products, and sales. We’ll cover:
+
 ✅ Database & schema creation
+
 ✅ Table relationships (Primary & Foreign Keys)
+
 ✅ Inserting data
+
 ✅ Querying for insights
 
 Let’s dive in!
@@ -217,6 +221,7 @@ We built a relational database from scratch, inserted data, and ran queries to e
 ✔ **Aggregations (SUM, GROUP BY)** help analyze trends.
 
 Try this in your own projects! 🚀
+
 
 
 
