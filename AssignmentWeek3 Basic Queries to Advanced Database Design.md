@@ -4,7 +4,7 @@ A comprehensive guide covering core SQL concepts, advanced techniques, query opt
 
 ---
 
-## 📊 Database Schema Overview
+## Database Schema Overview
 Our assignment uses a simple e-commerce database with three main tables:
 
 - **customer_info:** Customer details (id, name, location)
@@ -13,7 +13,7 @@ Our assignment uses a simple e-commerce database with three main tables:
 
 ---
 
-## <u>🔥 Section 1: Core SQL Concepts</u>
+## <u> Section 1: Core SQL Concepts</u>
 
 ## Q1: Write a SQL query to list all customers located in Nairobi. Show only full_name and location.
 
@@ -135,7 +135,7 @@ LIMIT 3;
 ---
 
 
-## <u>🚀 Section 2: Advanced SQL Techniques</u>
+## <u> Section 2: Advanced SQL Techniques</u>
 
 ## Q6: Write a CTE that calculates the average sales per customer and then returns customers whose total sales are above that average.
 
@@ -390,7 +390,7 @@ WHERE location = 'Nairobi';
 ---
 
 
-## <u>🏗️ Section 4: Database Design & Modeling</u>
+## <u> Section 4: Database Design & Modeling</u>
 
 ## Q13: Redesign the given schema into 3rd Normal Form (3NF) and provide the new CREATE TABLE statements.
 
@@ -527,10 +527,11 @@ CREATE TABLE SalesReport (
 - Trade storage space for query speed
 
 
-**🎯 Key Takeaways**
+** Key Takeaways**
 
 1. **Start Simple:** Master basic queries before advanced techniques
 2. **Optimize Wisely:** Index frequently queried columns
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
