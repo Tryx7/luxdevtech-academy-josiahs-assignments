@@ -45,10 +45,10 @@ WHERE location = 'Nairobi';
 **Query:**
 
 ```
-sql
-SELECT c.customer_id, c.full_name, p.product_name, p.price
-FROM customer_info c
-JOIN products p ON c.customer_id = p.customer_id;
+select customer_info.customer_id, full_name, product_name, price
+from customer_info
+inner join products
+where customer_info.customer_id = products.customer_id;
 ```
 **Purpose:** Inner join to combine customer and product data.
 
@@ -535,6 +535,7 @@ CREATE TABLE SalesReport (
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
 
 
 
