@@ -498,7 +498,8 @@ CREATE TABLE DateDim (
 
 ## Q15: Explain a scenario where denormalization would improve performance for reporting queries, and demonstrate the SQL table creation for that denormalized structure.
 
-Scenario: Monthly sales reports need data from multiple tables. Joining 4-5 tables repeatedly is slow.
+**Scenario:** Monthly sales reports need data from multiple tables. Joining 4-5 tables repeatedly is slow.
+
 **Denormalized Table:**
 
 ```
@@ -534,6 +535,7 @@ CREATE TABLE SalesReport (
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
 
 
 
