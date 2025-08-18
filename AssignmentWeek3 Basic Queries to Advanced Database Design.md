@@ -348,7 +348,7 @@ SELECT * FROM sales WHERE total_sales > 5000;
 sql
 SELECT * FROM sales WHERE total_sales > 5000;
 ```
-**Solution:**
+**Changes:**
 
 1. **Create an Index:**
 
@@ -540,6 +540,7 @@ CREATE TABLE SalesReport (
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
 
 
 
