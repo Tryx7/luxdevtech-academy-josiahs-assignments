@@ -336,14 +336,14 @@ SELECT * FROM Sales_CTE;
 ## Q11: The following query is running slowly:
 **SELECT * FROM sales WHERE total_sales > 5000;
 Explain two changes you would make to improve its performance and then write the optimized SQL query.**
-
+**Answer**
 **Problem:** This query runs slowly:
 
 ```
 sql
 SELECT * FROM sales WHERE total_sales > 5000;
 ```
-**Solutions:**
+**Solution:**
 
 1. **Create an Index:**
 
@@ -535,6 +535,7 @@ CREATE TABLE SalesReport (
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
 
 
 
