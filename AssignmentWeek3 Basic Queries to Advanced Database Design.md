@@ -527,12 +527,13 @@ CREATE TABLE SalesReport (
 - Trade storage space for query speed
 
 
-** Key Takeaways**
+**Key Takeaways**
 
 1. **Start Simple:** Master basic queries before advanced techniques
 2. **Optimize Wisely:** Index frequently queried columns
 3. **Choose the Right Model:** OLTP vs OLAP requirements
 4. **Test Performance:** Always measure before and after optimizations
 5. **Balance Trade-offs:** Normalization vs performance needs
+
 
 
