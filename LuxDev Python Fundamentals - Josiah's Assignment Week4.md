@@ -1,6 +1,6 @@
  
 
-## Python Fundamentals Exercises - Complete Solutions
+## Python Fundamentals Exercises 
 
 **Q1. VARIABLES EXERCISES**
 
@@ -232,5 +232,6 @@ calculator()
 **Loops:** for (definite), while (indefinite), break (exit), continue (skip)
 **Control Flow:** if/elif/else with logical operators
 **Functions:** Reusable code blocks, can call other functions
+
 
 
