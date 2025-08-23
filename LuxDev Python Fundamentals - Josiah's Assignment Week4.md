@@ -250,12 +250,19 @@ calculator()
 
 **Key Learning Points**
 
+
 **Variables:** Store data, follow naming rules
+
 **Data Types:** int, float, str, bool - Python handles conversions
+
 **Data Structures:** Lists (mutable), Tuples (immutable), Dicts (key-value), Sets (unique)
+
 **Loops:** for (definite), while (indefinite), break (exit), continue (skip)
+
 **Control Flow:** if/elif/else with logical operators
+
 **Functions:** Reusable code blocks, can call other functions
+
 
 
 
