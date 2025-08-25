@@ -208,43 +208,6 @@ def calculate_total(a, b, c):
 print(f"Total of 1, 2, 3: {calculate_total(1, 2, 3)}")
 ```
 
-**BONUS: ADDITIONAL PRACTICE**
-
-```
-print("\n=== BONUS PRACTICE ===")
-
- Combining everything: A simple calculator
-def calculator():
-    print("Simple Calculator")
-    print("Available operations: +, -, *, /")
-    
-     Get user input (simulated)
-    operations = [
-        (10, 5, '+'),
-        (15, 3, '-'),
-        (4, 7, '*'),
-        (20, 4, '/')
-    ]
-    
-    for num1, num2, op in operations:
-        if op == '+':
-            result = num1 + num2
-        elif op == '-':
-            result = num1 - num2
-        elif op == '*':
-            result = num1 * num2
-        elif op == '/':
-            if num2 != 0:
-                result = num1 / num2
-            else:
-                result = "Error: Division by zero"
-        else:
-            result = "Error: Invalid operation"
-        
-        print(f"{num1} {op} {num2} = {result}")
-
-calculator()
-```
 
 ## **EXERCISE SOLUTIONS COMPLETE**
 
@@ -262,6 +225,7 @@ calculator()
 **Control Flow:** if/elif/else with logical operators
 
 **Functions:** Reusable code blocks, can call other functions
+
 
 
 
