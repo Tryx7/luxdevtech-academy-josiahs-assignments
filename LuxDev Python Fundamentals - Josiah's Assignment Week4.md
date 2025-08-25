@@ -208,9 +208,6 @@ def calculate_total(a, b, c):
 print(f"Total of 1, 2, 3: {calculate_total(1, 2, 3)}")
 ```
 
-
-## **EXERCISE SOLUTIONS COMPLETE**
-
 **Key Learning Points**
 
 
@@ -225,6 +222,7 @@ print(f"Total of 1, 2, 3: {calculate_total(1, 2, 3)}")
 **Control Flow:** if/elif/else with logical operators
 
 **Functions:** Reusable code blocks, can call other functions
+
 
 
 
