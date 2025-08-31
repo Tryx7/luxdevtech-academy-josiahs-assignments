@@ -1,7 +1,5 @@
-I'll convert this content to a proper Markdown file format. Here's the complete content as a downloadable `.md` file:
 
-```markdown
-# ETL Pipeline Code Explanation - Progressive Learning Guide
+### ETL Pipeline Code Explanation - Progressive Learning Guide
 
 ## 📚 Table of Contents
 1. [Introduction to ETL](#introduction-to-etl)
