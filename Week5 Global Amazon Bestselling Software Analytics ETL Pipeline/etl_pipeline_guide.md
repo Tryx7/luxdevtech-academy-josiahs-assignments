@@ -348,14 +348,3 @@ LIMIT 5;
 4. **Add error handling** - Make the pipeline more robust
 5. **Automate the pipeline** - Schedule it to run regularly
 
-This code demonstrates a complete data engineering workflow that transforms raw API data into actionable business intelligence! 🎉
-```
-
-To use this as a `.md` file, you can:
-
-1. Copy all the text above
-2. Paste it into a text editor
-3. Save the file with a `.md` extension (e.g., `etl_pipeline_guide.md`)
-4. Open it with any Markdown viewer or editor
-
-The file is now ready to be used as a Markdown document with proper formatting, code blocks, tables, and other Markdown elements.
