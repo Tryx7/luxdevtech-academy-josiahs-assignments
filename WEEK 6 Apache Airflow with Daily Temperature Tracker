@@ -1,89 +1,72 @@
-📊 Project Title
-Daily Temperature Tracker with Apache Airflow
-🌐 Overview
+# 📊 Project Title
+**Daily Temperature Tracker with Apache Airflow**
 
-This project builds a scheduled data pipeline using Apache Airflow to:
+## 🌐 Overview
+This project builds a scheduled data pipeline using **Apache Airflow** to:
+* Fetch hourly temperature data for **Nairobi** from the **Open-Meteo API**
+* Transform the data into a structured format using **Pandas**
+* Load the data into a **PostgreSQL** database
+* Learn orchestration essentials with Airflow
 
-Fetch hourly temperature data for Nairobi from the Open-Meteo API
+API Used: `https://api.open-meteo.com/v1/forecast?latitude=-1.2921&longitude=36.8219&hourly=temperature_2m`
 
-Transform the data into a structured format using Pandas
+## 🎯 Objectives
+* Integrate a real-time API with Airflow
+* Implement DAGs and task orchestration
+* Persist data using **CSV** and **PostgreSQL**
+* Enhance the pipeline with:
+   * Parameterization
+   * Error handling
+   * Scheduling logic
 
-Load the data into a PostgreSQL database
+## 🔄 Detailed Project Flow
 
-Learn orchestration essentials with Airflow
+### 1️⃣ Extract
+Use Airflow's `PythonOperator` to fetch data:
+* Endpoint: Open-Meteo API (hourly temperature)
+* Location: Nairobi
+* Handle potential API errors
+* Capture response in JSON format
 
-API Used:
-https://api.open-meteo.com/v1/forecast?latitude=-1.2921&longitude=36.8219&hourly=temperature_2m
-
-🎯 Objectives
-
-Integrate a real-time API with Airflow
-
-Implement DAGs and task orchestration
-
-Persist data using CSV and PostgreSQL
-
-Enhance the pipeline with:
-
-Parameterization
-
-Error handling
-
-Scheduling logic
-
-🔄 Detailed Project Flow
-1️⃣ Extract
-
-Use Airflow’s PythonOperator to fetch data:
-
-Endpoint: Open-Meteo API (hourly temperature)
-
-Location: Nairobi
-
-Handle potential API errors
-
-Capture response in JSON format
-
+```python
 response = requests.get(api_url)
 if response.status_code == 200:
     data = response.json()
 else:
     print("API not working")
+```
 
-2️⃣ Transform
+### 2️⃣ Transform
+* Parse JSON to extract timestamps and temperature
+* Structure into a **Pandas DataFrame**
+* Save as backup to CSV
 
-Parse JSON to extract timestamps and temperature
-
-Structure into a Pandas DataFrame
-
-Save as backup to CSV
-
+```python
 df = pd.DataFrame({
     "timestamp": data['hourly']['time'],
     "temperature": data['hourly']['temperature_2m']
 })
 df.to_csv("nairobi_weather.csv", index=False)
+```
 
-3️⃣ Load
+### 3️⃣ Load
+* Load the CSV data into a **PostgreSQL** table: `nairobi_weather`
+* Use `SQLAlchemy` for the connection
 
-Load the CSV data into a PostgreSQL table: nairobi_weather
-
-Use SQLAlchemy for the connection
-
+```python
 engine = create_engine("postgresql://<username>:<password>@<host>:<port>/<database>?sslmode=require")
 df.to_sql("nairobi_weather", engine, if_exists="append", index=False)
+```
 
-4️⃣ Schedule & Orchestrate
+### 4️⃣ Schedule & Orchestrate
+* Schedule DAG to run **hourly**
+* Use `catchup=False` to avoid backfilling
+* Task naming: `extract_temp`
+* Logical task chaining is demonstrated below
 
-Schedule DAG to run hourly
+## 🧠 Code Implementation (DAG)
 
-Use catchup=False to avoid backfilling
-
-Task naming: extract_temp
-
-Logical task chaining is demonstrated below
-
-🧠 Code Implementation (DAG)
+```python
 import requests
 import pandas as pd
 from sqlalchemy import create_engine
@@ -133,13 +116,11 @@ with DAG(
     )
 
 nairobi_etl_task
+```
 
-📌 Notes
+## 📌 Notes
+* **Security Tip:** Never expose real passwords or database URIs in public repos. Use environment variables or Airflow's **Connections UI**.
+* **Improvements:** Add email alerts, retry logic, logging, and data validation for production-grade reliability.
 
-Security Tip: Never expose real passwords or database URIs in public repos. Use environment variables or Airflow's Connections UI.
-
-Improvements: Add email alerts, retry logic, logging, and data validation for production-grade reliability.
-
-✅ Conclusion
-
-This project demonstrates how to create a fully automated, hourly ETL pipeline using Apache Airflow, fetching live data from a public API, transforming it, and persisting it in a local database — all within a reproducible and scalable orchestration framework.
+## ✅ Conclusion
+This project demonstrates how to create a **fully automated, hourly ETL pipeline** using Apache Airflow, fetching live data from a public API, transforming it, and persisting it in a local database — all within a reproducible and scalable orchestration framework.
