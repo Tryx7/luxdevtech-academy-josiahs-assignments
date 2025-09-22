@@ -6,7 +6,7 @@
 
 ## 1. Introduction
 
-Before taking CS 598, I knew Apache Kafka was a "streaming platform," but I didn't fully grasp its significance. This course has shown me that it's far more than a messaging queue; it's a foundational piece of infrastructure for building real-time, responsive applications. This summary will cover its core architecture, its role in data engineering, and the practical realities of using it in production, based on our course materials and readings.
+Before taking Real-Time Data Processing with Kafka, I knew Apache Kafka was a "streaming platform," but I didn't fully grasp its significance. This course has shown me that it's far more than a messaging queue; it's a foundational piece of infrastructure for building real-time, responsive applications. This summary will cover its core architecture, its role in data engineering, and the practical realities of using it in production, based on our course materials and readings.
 
 ## 2. Core Architecture: The Distributed Log
 
