@@ -56,7 +56,7 @@ while True:
 
 **KRaft:** A major recent development is the move from Apache ZooKeeper for metadata management to KRaft (Kafka Raft metadata mode). This simplifies deployment.
 
-**Managed Services:** We also discussed the operational complexity of self-hosting a cluster. This is where managed platforms like Confluent Cloud become relevant. They handle the underlying infrastructure, scaling, and maintenance, allowing developers to focus just on building their streaming applications instead of managing servers. For a startup or a team without dedicated SREs, this seems like a very practical option.
+**Managed Services:** We also discussed the operational complexity of self-hosting a cluster. This is where managed platforms like Confluent Cloud become relevant. They handle the underlying infrastructure, scaling, and maintenance, allowing developers to focus just on building their streaming applications instead of managing servers. For a startup or a team without dedicated SREs( Site Reliability Engineering ), this seems like a very practical option.
 
 ## 4. Data Engineering Applications
 
