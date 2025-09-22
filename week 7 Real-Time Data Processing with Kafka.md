@@ -1,4 +1,4 @@
-# Apache Kafka: Core Concepts and Applications - Course Summary
+# Apache Kafka Deep Dive: Core Concepts, Data Engineering Applications, and Real-World Production Practices
 
 **Student Name:** Josiah Lagat  
 **Course:** Data Engineering: Real-Time Data Processing with Kafka
