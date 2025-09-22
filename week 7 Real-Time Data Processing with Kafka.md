@@ -1,8 +1,8 @@
 # Apache Kafka: Core Concepts and Applications - Course Summary
 
-**Student Name:** Alex Rivera  
-**Course:** CS 598: Advanced Data Engineering Systems  
-**Date:** May 22, 2024
+**Student Name:** Josiah Lagat  
+**Course:** Data Engineering: Real-Time Data Processing with Kafka
+**Date:** September 21, 2025
 
 ## 1. Introduction
 
