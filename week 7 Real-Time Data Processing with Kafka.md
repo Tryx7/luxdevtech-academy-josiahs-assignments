@@ -3,7 +3,7 @@
 
 **Student Name:** Josiah Lagat  
 **Course:** Data Engineering: Real-Time Data Processing with Kafka
-**Date:** September 21, 2025
+**Date:** September 23, 2025
 
 
 ## Introduction to Apache Kafka
