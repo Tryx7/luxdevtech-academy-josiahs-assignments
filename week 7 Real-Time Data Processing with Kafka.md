@@ -1,8 +1,10 @@
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4mjpxh10aw4wdq4wq8z.png)
 # Apache Kafka Deep Dive: Core Concepts, Data Engineering Applications, and Real-World Production Practices
 
 **Student Name:** Josiah Lagat  
 **Course:** Data Engineering: Real-Time Data Processing with Kafka
 **Date:** September 21, 2025
+
 
 ## Introduction to Apache Kafka
 
