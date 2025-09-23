@@ -530,4 +530,4 @@ For developers and architects, mastering Kafka means building systems that can h
 
 ---
 
-*Word Count: 1,350 words*
+
