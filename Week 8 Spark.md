@@ -1,3 +1,8 @@
+# Week 8: Apache Spark Assignments - LuxTech Academy
+
+**Student:** Josiah  
+**Date:** 10/2/2025
+
 # A Beginner's Guide to Big Data Analytics with Apache Spark and PySpark
 
 ## 1. Introduction to Big Data Analytics
