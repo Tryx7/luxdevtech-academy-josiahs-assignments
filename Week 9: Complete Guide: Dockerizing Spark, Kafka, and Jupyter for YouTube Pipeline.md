@@ -1616,9 +1616,13 @@ engine = create_engine('postgresql://postgres:postgres123@postgres:5432/youtube_
 
 You now have a complete, Dockerized data pipeline with:
 ✅ Apache Kafka for real-time streaming
-✅ Apache Spark for distributed processing  
+
+✅ Apache Spark for distributed processing 
+
 ✅ Jupyter for interactive analysis
+
 ✅ Airflow for workflow orchestration
+
 ✅ PostgreSQL for data persistence
 
 **Congratulations!** You've successfully dockerized Spark, Kafka, and Jupyter for a production-grade data pipeline.
