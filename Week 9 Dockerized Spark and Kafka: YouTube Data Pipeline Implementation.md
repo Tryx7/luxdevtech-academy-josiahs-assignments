@@ -1,5 +1,5 @@
 
-![Uploading image](...)## Dockerized Spark and Kafka: YouTube Data Pipeline Implementation
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5sdz9uupg63sjkdqvdvx.png)## Dockerized Spark and Kafka: YouTube Data Pipeline Implementation
 
 ## Executive Summary
 This presentation demonstrates a production-grade, containerized data engineering pipeline that extracts, processes, and analyzes YouTube data using Apache Airflow for orchestration, Apache Kafka for real-time streaming, and Apache Spark for distributed data processing—all deployed using Docker containerization.
