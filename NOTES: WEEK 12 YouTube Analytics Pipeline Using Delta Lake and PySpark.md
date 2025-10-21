@@ -1,5 +1,7 @@
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kq3jwasbffka7ibqgrlq.png)# YouTube Analytics Pipeline
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kq3jwasbffka7ibqgrlq.png)
+
+### YouTube Analytics Pipeline Using Delta Lake and PySpark.
 
 Complete data pipeline for extracting, processing, and analyzing data from multiple YouTube channels using Delta Lake and PySpark.
 
